@@ -279,9 +279,9 @@ Pada Riverpod, pola ini mudah dicapai. Saat refresh, Riverpod tetap memberikan `
 ## Refleksi
 - `Kapan setState masih cukup, dan kapan state harus naik ke Riverpod?` setState cukup untuk state lokal satu widget, misalnya isi TextField atau tab aktif. Riverpod dipakai saat data dipakai banyak halaman atau harus tetap ada setelah widget ditutup, seperti daftar todo yang tetap tersimpan saat berpindah antara Home dan Detail.
 
-- `Apa perbedaan context.go dan context.push, dan kapan masing-masing tepat digunakan?` context.go mengganti tumpukan navigasi sesuai path tujuan, cocok untuk pindah antar bagian utama dan deep link. context.push menambah halaman di atas tumpukan, cocok untuk halaman sementara yang perlu tombol back, seperti form tambah todo.
+- `Apa perbedaan context.go dan context.push, dan kapan masing-masing tepat digunakan?` context.go mengganti tumpukan navigasi sesuai path tujuan, cocok untuk pindah antar bagian utama dan deep link. Lalu, context.push menambah halaman di atas tumpukan, cocok untuk halaman sementara yang perlu tombol back, seperti form tambah todo.
 
-- `Bagaimana AsyncValue mencegah bug dibanding tiga boolean terpisah?`Tiga boolean bisa berada di kombinasi yang mustahil, misalnya loading dan error bersamaan. AsyncValue hanya bisa di satu kondisi (AsyncLoading, AsyncError, AsyncData), dan .when() memaksa ketiganya ditangani.`
+- `Bagaimana AsyncValue mencegah bug dibanding tiga boolean terpisah?` Yang akan terjadi ketika Tiga boolean terpisah yaitu loading dan error bersamaan. AsyncValue hanya bisa di satu kondisi (AsyncLoading, AsyncError, AsyncData), dan .when() memaksa ketiganya ditangani.`
 
 - `Bagian mana dari hasil AI yang Anda perbaiki, dan mengapa?` Logika toggle yang terbalik (item yang diketuk tidak berubah, item lain yang berubah), _ctrl yang dipakai tanpa dideklarasikan, dan blok kode HomePage yang duplikat. Kode dari AI belum tentu benar, jadi harus dijalankan dan diuji dulu.
 
