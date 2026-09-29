@@ -3,7 +3,7 @@
  - Nama : Handino Asa Galih R
  - Nim : 244107020237
  - Kelas : TI 3E
-
+ 
 ### Tujuan Praktikum
 *mahasiswa mampu membangun arsitektur aplikasi Flutter modern melalui penguasaan sistem navigasi lanjutan menggunakan GoRouter (termasuk passing argument dan deep link) serta pengelolaan state asinkron menggunakan ekosistem Riverpod. Mahasiswa tidak hanya akan memahami teori transisi dari Navigator 1.0 dan penanganan UI reaktif menggunakan AsyncValue untuk merespons status loading, error, maupun success, tetapi juga mampu mengimplementasikan seluruh konsep tersebut secara terintegrasi dengan membangun aplikasi ToDo fungsional yang keandalannya divalidasi langsung melalui widget test.*
 
