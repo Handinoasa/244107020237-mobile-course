@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "807177862902",
+    "project_id": "pemrogramman-mobile-6",
+    "storage_bucket": "pemrogramman-mobile-6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:807177862902:android:49af42f3c6c51548f5f6d7",
+        "android_client_info": {
+          "package_name": "com.example.campus_notify"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFuwfLA1ellezrljzwbbuTygOFvQnnCIQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
